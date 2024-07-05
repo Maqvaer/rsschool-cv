@@ -1,6 +1,27 @@
-p{
-   text-decoration:underline;
-   font-weight: 500;
-   padding-bottom: 3px;
-   line-height: 24px;
+header{
+   width: 100%;
+}
+header div{   
+   width: fit-content;
+   margin:0 auto;
+
+}
+
+body{
+   margin: 0 auto;
+   height: 100vh;
+}
+
+main{
+   height: 80vh;
+   margin: 20px;
+}
+footer img{
+   width:80px;
+}
+nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
 }
